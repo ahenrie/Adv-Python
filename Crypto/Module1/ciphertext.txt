@@ -1,0 +1,49 @@
+holsoaqmh mtt nh sabkytol loonoq lb wma mjmh
+yesterday all my troubles seemed so far away
+xbj us tbbzl ml sebkie seoh mao eoao sb lsmh
+now it looks at though they are here to stay
+be u yotuodo ux holsoaqmh
+oh I beleive in yesterday
+lkqqoxth u mn xbs emtw sb nmx u kloq sb yo
+suddenly I am not half to man I used to be
+seoao ul m lemqbj emxiuxi bdoa no
+there is a shadow hanging over me
+be holsoaqmh pmno lkqqoxth
+oh yesterday came suddenly
+jeh leo emq sb ib u qb xbs zxbj leo jbktq xbs lmh
+why she had to go I do not know she would not say
+u lmuq lbnoseuxi jabxi xbj u tbxi wba holsoaqmh
+I said something wrong now I long for yesterday
+holsoaqmh tbdo jml lkpe mx omlh imno sb ctmh
+yesterday love was such an easy game to play
+xbj u xooq m ctmpo sb euqo mjmh
+now I need a place to hide away
+be u yotuodo ux holsoaqmh
+oh I beleive in yeserday
+jeh leo emq sb ib u qb xbs zxbj leo jbktq xbs lmh
+Why she had to go I do not know she would not say
+u lmuq lbnoseuxi jabxi xbj u tbxi wba holsoaqmh
+I said something wrong now I long for yesterday
+holsoaqmh tbdo jml lkpe mx omlh imno sb ctmh
+yesterday love was such an easy game to play
+xbj u xooq m ctmpo sb euqo mjmh
+now I need a place to hide away
+be u yotuodo ux holsoaqmh
+oh I beleive in yesterday
+
+From decryption function and given o to e
+o -> e
+m -> a
+t -> l
+
+1. Try u -> i since it is alone a lot and we already have m -> a
+2. Try n -> m for the 4th line a_ after I
+3. Try x -> n for the 4th line ma_
+4. Try b -> o and j -> w to get the word now in line 2
+5. Try s -> t for the word not on line 4
+6. Try q -> d for the word need on the second to last line
+7. Try h -> y
+       l -> s
+       a -> t  to get the word yesterday throughout the text
+
+       This is where I realized the song is Yesterday by the Beatles in 1965
