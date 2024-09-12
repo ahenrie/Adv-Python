@@ -1,14 +1,21 @@
 class DataStorage:
     def __init__(self, df) -> None:
+        """
+        Initializes the DataStorage with a DataFrame and prompts for file storage options.
+
+        :param df: DataFrame containing the data to be stored
+        """
         self.df = df
         self.out_file_path = None
-        self.get_file_type()
+        #self.get_file_type()
 
     def get_file_type(self):
-        # Ask the user for the file path (without extension)
+        """
+        Prompts the user to choose a file type and saves the DataFrame to the chosen format.
+        The method will repeatedly prompt until a valid file type is selected.
+        """
         self.out_file_path = input("Enter the file path (without extension): ")
 
-        # Loop until a valid file type is provided
         while True:
             decision = input("What file type would you like to save your data frame to (CSV, XLSX, JSON): ").upper()
 
