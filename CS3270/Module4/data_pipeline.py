@@ -22,11 +22,19 @@ class DataPipeLine:
         2. Process the data using the DataProcessor instance.
         3. Store the processed data using the DataStorage instance.
         """
-        df = self.data_loader.read_csv_pd()
-        print("Data loaded successfully.")
+        try:
+            df = self.data_loader.read_csv_chunks()
+            print("Data loaded successfully.")
+        except Exception as e:
+            print(f"An unexpected error occured when loading data: {e}.")
 
-        self.data_processor.process_data_frame()
-        print("Data processed successfully.")
+        try:
+            self.data_processor.process_data_frame()
+            print("Data processed successfully.")
+        except Exception as e:
+            print(f"An unexpected error occured when processing the data: {e}.")
 
-        self.data_storage.get_file_type()
-        print("Data stored successfully.")
+        try:
+            self.data_storage.get_file_type()
+        except Exception as e:
+            print(f"An unexpected error occured on storage: {e}.")
