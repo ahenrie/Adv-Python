@@ -1,3 +1,5 @@
+import logging
+
 class DataProcessor:
     def __init__(self, df) -> None:
         """
@@ -5,8 +7,8 @@ class DataProcessor:
 
         :param df: DataFrame containing the weather data to be processed
         """
+        self.logger = logging.getLogger()
         self.df = df  # Store the DataFrame as an instance attribute
-        #self.process_data_frame()  # Process the DataFrame immediately upon initialization
 
     def get_df_info(self):
         """
@@ -48,6 +50,7 @@ class DataProcessor:
         """
         Processes the DataFrame to print out temperature metrics and DataFrame information.
         """
+        self.logger.debug(f"All DataProcessor methods completed successfully.")
         print("Info regarding your weather CSV:")
         print("\n********************* Temperature Metrics *********************")
         print(f"Average minimum temperature: {self.average_min_temp()} °C")

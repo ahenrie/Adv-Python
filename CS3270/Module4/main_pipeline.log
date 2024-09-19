@@ -1,0 +1,196 @@
+2024-09-18 16:37:26,981 - INFO - Starting main pipeline
+2024-09-18 16:37:26,981 - DEBUG - Attempting to load data from file
+2024-09-18 16:37:26,981 - DEBUG - Initializing DataLoader with file: ../AustraliaWeatherData/Weather Test Data.csv
+2024-09-18 16:37:27,062 - INFO - Data successfully loaded with shape (42677, 22)
+2024-09-18 16:37:27,063 - DEBUG - Attempting to process data
+2024-09-18 16:37:27,063 - INFO - Data successfully processed
+2024-09-18 16:37:27,063 - DEBUG - Attempting to store data
+2024-09-18 16:37:27,063 - INFO - DataStorage initialized with DataFrame.
+2024-09-18 16:37:27,063 - INFO - Data storage initialized successfully
+2024-09-18 16:37:27,063 - DEBUG - Running the data pipeline
+2024-09-18 16:37:27,063 - DEBUG - All DataProcessor methods completed successfully.
+2024-09-18 16:37:34,362 - INFO - User provided file path: /
+2024-09-18 16:37:36,547 - INFO - User selected file type: ASDF/
+2024-09-18 16:37:36,547 - WARNING - Unsupported file type 'ASDF/' chosen by user.
+2024-09-18 16:37:37,966 - INFO - User selected file type: CD
+2024-09-18 16:37:37,967 - WARNING - Unsupported file type 'CD' chosen by user.
+2024-09-18 16:37:38,957 - INFO - User selected file type: CSDFA
+2024-09-18 16:37:38,957 - WARNING - Unsupported file type 'CSDFA' chosen by user.
+2024-09-18 16:37:39,589 - INFO - User selected file type: ASDFASD
+2024-09-18 16:37:39,590 - WARNING - Unsupported file type 'ASDFASD' chosen by user.
+2024-09-18 16:37:39,847 - INFO - User selected file type: ASD
+2024-09-18 16:37:39,847 - WARNING - Unsupported file type 'ASD' chosen by user.
+2024-09-18 16:37:40,045 - INFO - User selected file type: FA
+2024-09-18 16:37:40,046 - WARNING - Unsupported file type 'FA' chosen by user.
+2024-09-18 16:37:40,256 - INFO - User selected file type: SDFA
+2024-09-18 16:37:40,256 - WARNING - Unsupported file type 'SDFA' chosen by user.
+2024-09-18 16:37:40,429 - INFO - User selected file type: SDF
+2024-09-18 16:37:40,430 - WARNING - Unsupported file type 'SDF' chosen by user.
+2024-09-18 16:37:40,607 - INFO - User selected file type: ASDF
+2024-09-18 16:37:40,607 - WARNING - Unsupported file type 'ASDF' chosen by user.
+2024-09-18 16:37:40,801 - INFO - User selected file type: ASDFASD
+2024-09-18 16:37:40,802 - WARNING - Unsupported file type 'ASDFASD' chosen by user.
+2024-09-18 16:37:40,970 - INFO - User selected file type: FASD
+2024-09-18 16:37:40,970 - WARNING - Unsupported file type 'FASD' chosen by user.
+2024-09-18 16:37:41,148 - INFO - User selected file type: FSAD
+2024-09-18 16:37:41,148 - WARNING - Unsupported file type 'FSAD' chosen by user.
+2024-09-18 16:37:41,323 - INFO - User selected file type: FA
+2024-09-18 16:37:41,323 - WARNING - Unsupported file type 'FA' chosen by user.
+2024-09-18 16:37:41,491 - INFO - User selected file type: SDF
+2024-09-18 16:37:41,492 - WARNING - Unsupported file type 'SDF' chosen by user.
+2024-09-18 16:37:41,662 - INFO - User selected file type: ASDF
+2024-09-18 16:37:41,662 - WARNING - Unsupported file type 'ASDF' chosen by user.
+2024-09-18 16:37:41,843 - INFO - User selected file type: ASDF
+2024-09-18 16:37:41,843 - WARNING - Unsupported file type 'ASDF' chosen by user.
+2024-09-18 16:37:42,030 - INFO - User selected file type: SDAF
+2024-09-18 16:37:42,030 - WARNING - Unsupported file type 'SDAF' chosen by user.
+2024-09-18 16:37:43,585 - INFO - User selected file type: JSON
+2024-09-18 16:37:43,690 - ERROR - OSError: [Errno 30] Read-only file system: '/.json'
+2024-09-18 16:37:48,457 - INFO - User selected file type: ADSFASDF
+2024-09-18 16:37:48,457 - WARNING - Unsupported file type 'ADSFASDF' chosen by user.
+2024-09-18 16:37:49,766 - INFO - User selected file type: CD
+2024-09-18 16:37:49,766 - WARNING - Unsupported file type 'CD' chosen by user.
+2024-09-18 16:37:50,825 - INFO - User selected file type: CSV
+2024-09-18 16:37:50,828 - ERROR - OSError: [Errno 30] Read-only file system: '///.csv'
+2024-09-18 16:37:58,104 - INFO - User selected file type: /CA
+2024-09-18 16:37:58,105 - WARNING - Unsupported file type '/CA' chosen by user.
+2024-09-18 16:38:00,881 - INFO - User selected file type: CSV
+2024-09-18 16:38:01,140 - INFO - Data saved as CSV to s.csv
+2024-09-18 16:38:01,140 - INFO - Pipeline completed successfully
+2024-09-18 16:39:06,899 - INFO - Starting main pipeline
+2024-09-18 16:39:06,899 - DEBUG - Attempting to load data from file
+2024-09-18 16:39:06,899 - DEBUG - Initializing DataLoader with file: ../AustraliaWeatherData/Weather Test Data.csv
+2024-09-18 16:39:06,977 - INFO - Data successfully loaded with shape (42677, 22)
+2024-09-18 16:39:06,977 - DEBUG - Attempting to process data
+2024-09-18 16:39:06,977 - INFO - Data successfully processed
+2024-09-18 16:39:06,977 - DEBUG - Attempting to store data
+2024-09-18 16:39:06,977 - INFO - DataStorage initialized with DataFrame.
+2024-09-18 16:39:06,977 - INFO - Data storage initialized successfully
+2024-09-18 16:39:06,977 - DEBUG - Running the data pipeline
+2024-09-18 16:39:06,977 - DEBUG - All DataProcessor methods completed successfully.
+2024-09-18 16:39:08,866 - INFO - User provided file path: asdf
+2024-09-18 16:39:09,441 - INFO - User selected file type: ASDF
+2024-09-18 16:39:09,442 - WARNING - Unsupported file type 'ASDF' chosen by user.
+2024-09-18 16:39:09,669 - INFO - User selected file type: AS
+2024-09-18 16:39:09,670 - WARNING - Unsupported file type 'AS' chosen by user.
+2024-09-18 16:39:09,889 - INFO - User selected file type: DFA
+2024-09-18 16:39:09,890 - WARNING - Unsupported file type 'DFA' chosen by user.
+2024-09-18 16:39:10,066 - INFO - User selected file type: SDF
+2024-09-18 16:39:10,066 - WARNING - Unsupported file type 'SDF' chosen by user.
+2024-09-18 16:39:10,241 - INFO - User selected file type: ASDF
+2024-09-18 16:39:10,241 - WARNING - Unsupported file type 'ASDF' chosen by user.
+2024-09-18 16:39:10,416 - INFO - User selected file type: ASD
+2024-09-18 16:39:10,416 - WARNING - Unsupported file type 'ASD' chosen by user.
+2024-09-18 16:39:10,605 - INFO - User selected file type: FAS
+2024-09-18 16:39:10,605 - WARNING - Unsupported file type 'FAS' chosen by user.
+2024-09-18 16:39:10,782 - INFO - User selected file type: D
+2024-09-18 16:39:10,783 - WARNING - Unsupported file type 'D' chosen by user.
+2024-09-18 16:39:10,957 - INFO - User selected file type: S
+2024-09-18 16:39:10,958 - WARNING - Unsupported file type 'S' chosen by user.
+2024-09-18 16:39:11,123 - INFO - User selected file type: S
+2024-09-18 16:39:11,123 - WARNING - Unsupported file type 'S' chosen by user.
+2024-09-18 16:39:11,282 - INFO - User selected file type: SS
+2024-09-18 16:39:11,282 - WARNING - Unsupported file type 'SS' chosen by user.
+2024-09-18 16:39:11,440 - INFO - User selected file type: S
+2024-09-18 16:39:11,440 - WARNING - Unsupported file type 'S' chosen by user.
+2024-09-18 16:39:11,597 - INFO - User selected file type: S
+2024-09-18 16:39:11,597 - WARNING - Unsupported file type 'S' chosen by user.
+2024-09-18 16:39:11,765 - INFO - User selected file type: S
+2024-09-18 16:39:11,765 - WARNING - Unsupported file type 'S' chosen by user.
+2024-09-18 16:39:11,946 - INFO - User selected file type: S
+2024-09-18 16:39:11,946 - WARNING - Unsupported file type 'S' chosen by user.
+2024-09-18 16:39:12,108 - INFO - User selected file type: S
+2024-09-18 16:39:12,108 - WARNING - Unsupported file type 'S' chosen by user.
+2024-09-18 16:39:12,280 - INFO - User selected file type: S
+2024-09-18 16:39:12,280 - WARNING - Unsupported file type 'S' chosen by user.
+2024-09-18 16:39:12,450 - INFO - User selected file type: S
+2024-09-18 16:39:12,450 - WARNING - Unsupported file type 'S' chosen by user.
+2024-09-18 16:39:12,624 - INFO - User selected file type: S
+2024-09-18 16:39:12,624 - WARNING - Unsupported file type 'S' chosen by user.
+2024-09-18 16:39:12,808 - INFO - User selected file type: S
+2024-09-18 16:39:12,808 - WARNING - Unsupported file type 'S' chosen by user.
+2024-09-18 16:39:13,301 - INFO - User selected file type: 
+2024-09-18 16:39:13,301 - WARNING - Unsupported file type '' chosen by user.
+2024-09-18 16:39:13,386 - INFO - User selected file type: 
+2024-09-18 16:39:13,386 - WARNING - Unsupported file type '' chosen by user.
+2024-09-18 16:39:13,471 - INFO - User selected file type: 
+2024-09-18 16:39:13,471 - WARNING - Unsupported file type '' chosen by user.
+2024-09-18 16:39:13,555 - INFO - User selected file type: 
+2024-09-18 16:39:13,555 - WARNING - Unsupported file type '' chosen by user.
+2024-09-18 16:39:13,636 - INFO - User selected file type: 
+2024-09-18 16:39:13,636 - WARNING - Unsupported file type '' chosen by user.
+2024-09-18 16:39:13,720 - INFO - User selected file type: 
+2024-09-18 16:39:13,720 - WARNING - Unsupported file type '' chosen by user.
+2024-09-18 16:39:13,804 - INFO - User selected file type: 
+2024-09-18 16:39:13,805 - WARNING - Unsupported file type '' chosen by user.
+2024-09-18 16:39:13,891 - INFO - User selected file type: 
+2024-09-18 16:39:13,891 - WARNING - Unsupported file type '' chosen by user.
+2024-09-18 16:39:13,973 - INFO - User selected file type: 
+2024-09-18 16:39:13,974 - WARNING - Unsupported file type '' chosen by user.
+2024-09-18 16:39:14,057 - INFO - User selected file type: 
+2024-09-18 16:39:14,057 - WARNING - Unsupported file type '' chosen by user.
+2024-09-18 16:39:14,144 - INFO - User selected file type: 
+2024-09-18 16:39:14,145 - WARNING - Unsupported file type '' chosen by user.
+2024-09-18 16:39:14,373 - INFO - User selected file type: A
+2024-09-18 16:39:14,374 - WARNING - Unsupported file type 'A' chosen by user.
+2024-09-18 16:39:14,573 - INFO - User selected file type: SS
+2024-09-18 16:39:14,573 - WARNING - Unsupported file type 'SS' chosen by user.
+2024-09-18 16:39:14,748 - INFO - User selected file type: S
+2024-09-18 16:39:14,748 - WARNING - Unsupported file type 'S' chosen by user.
+2024-09-18 16:39:14,908 - INFO - User selected file type: S
+2024-09-18 16:39:14,908 - WARNING - Unsupported file type 'S' chosen by user.
+2024-09-18 16:39:15,082 - INFO - User selected file type: S
+2024-09-18 16:39:15,082 - WARNING - Unsupported file type 'S' chosen by user.
+2024-09-18 16:39:15,641 - INFO - User selected file type: S/
+2024-09-18 16:39:15,641 - WARNING - Unsupported file type 'S/' chosen by user.
+2024-09-18 16:39:16,367 - INFO - User selected file type: //
+2024-09-18 16:39:16,367 - WARNING - Unsupported file type '//' chosen by user.
+2024-09-18 16:39:17,415 - INFO - User selected file type: CSV
+2024-09-18 16:39:17,667 - INFO - Data saved as CSV to asdf.csv
+2024-09-18 16:39:17,667 - INFO - Pipeline completed successfully
+2024-09-18 16:39:33,833 - INFO - Starting main pipeline
+2024-09-18 16:39:33,833 - DEBUG - Attempting to load data from file
+2024-09-18 16:39:33,833 - DEBUG - Initializing DataLoader with file: ../AustraliaWeatherData/Weather Test Data.csv
+2024-09-18 16:39:33,910 - INFO - Data successfully loaded with shape (42677, 22)
+2024-09-18 16:39:33,910 - DEBUG - Attempting to process data
+2024-09-18 16:39:33,910 - INFO - Data successfully processed
+2024-09-18 16:39:33,910 - DEBUG - Attempting to store data
+2024-09-18 16:39:33,911 - INFO - DataStorage initialized with DataFrame.
+2024-09-18 16:39:33,911 - INFO - Data storage initialized successfully
+2024-09-18 16:39:33,911 - DEBUG - Running the data pipeline
+2024-09-18 16:39:33,911 - DEBUG - All DataProcessor methods completed successfully.
+2024-09-18 16:39:41,294 - INFO - User provided file path: /
+2024-09-18 16:39:42,245 - INFO - User selected file type: SD
+2024-09-18 16:39:42,245 - WARNING - Unsupported file type 'SD' chosen by user.
+2024-09-18 16:39:42,897 - INFO - User selected file type: CS
+2024-09-18 16:39:42,897 - WARNING - Unsupported file type 'CS' chosen by user.
+2024-09-18 16:39:43,968 - INFO - User selected file type: CSV
+2024-09-18 16:39:43,971 - ERROR - OSError: [Errno 30] Read-only file system: '/.csv'
+2024-09-18 16:39:46,877 - INFO - User selected file type: DS
+2024-09-18 16:39:46,877 - WARNING - Unsupported file type 'DS' chosen by user.
+2024-09-18 16:39:47,808 - INFO - User selected file type: CDS
+2024-09-18 16:39:47,808 - WARNING - Unsupported file type 'CDS' chosen by user.
+2024-09-18 16:39:48,899 - INFO - User selected file type: CSV
+2024-09-18 16:39:49,159 - INFO - Data saved as CSV to d.csv
+2024-09-18 16:39:49,159 - INFO - Pipeline completed successfully
+2024-09-18 17:05:21,628 - INFO - Starting main pipeline
+2024-09-18 17:05:21,628 - DEBUG - Attempting to load data from file
+2024-09-18 17:05:21,628 - DEBUG - Initializing DataLoader with file: ../AustraliaWeatherData/Weather Test Data.csv
+2024-09-18 17:05:21,706 - INFO - Data successfully loaded with shape (42677, 22)
+2024-09-18 17:05:21,706 - DEBUG - Attempting to process data
+2024-09-18 17:05:21,706 - INFO - Data successfully processed
+2024-09-18 17:05:21,706 - DEBUG - Attempting to store data
+2024-09-18 17:05:21,706 - INFO - DataStorage initialized with DataFrame.
+2024-09-18 17:05:21,706 - INFO - Data storage initialized successfully
+2024-09-18 17:05:21,706 - DEBUG - Running the data pipeline
+2024-09-18 17:05:21,706 - DEBUG - All DataProcessor methods completed successfully.
+2024-09-18 17:05:25,283 - INFO - User provided file path: /
+2024-09-18 17:05:27,148 - INFO - User selected file type: C
+2024-09-18 17:05:27,150 - WARNING - Unsupported file type 'C' chosen by user.
+2024-09-18 17:05:28,498 - INFO - User selected file type: KSON
+2024-09-18 17:05:28,498 - WARNING - Unsupported file type 'KSON' chosen by user.
+2024-09-18 17:05:32,441 - INFO - User selected file type: JSON
+2024-09-18 17:05:32,549 - ERROR - OSError: [Errno 30] Read-only file system: '/.json'
+2024-09-18 17:05:41,717 - INFO - User selected file type: JSON
+2024-09-18 17:05:41,831 - INFO - Data saved as JSON to sampleJson.json
+2024-09-18 17:05:41,831 - INFO - Pipeline completed successfully
