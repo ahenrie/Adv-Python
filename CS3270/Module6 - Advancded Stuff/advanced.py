@@ -73,3 +73,81 @@ zipped_iterator = zip(num_list, lett_list)
 print(next(zipped_iterator))
 print(next(zipped_iterator))
 print(list(zipped_iterator))
+
+"""
+itertools
+    This is a module that offers useful functions for working with iterators. We will go over some of the utility functions below.
+"""
+print_centered_with_asterisks("Using itertools")
+
+import itertools
+
+# Count is used to creat an iterable of numbers and then yields an inter.
+iter = itertools.count(10, 2)
+print(next(iter))
+print(next(iter))
+
+while next(iter) < 15:
+    print(next(iter))
+
+# Cycle allows us to iterate through an iterable endlessly.
+letters = ['A', 'B', 'C']
+#for letter in itertools.cycle(letters):
+#    print(letter)
+
+
+# Repeat gives us an iterator that returns an object
+# This will print 'Python' 6 times believe it or not.
+for x in itertools.repeat('Python', times=6):
+    print(x)
+
+
+# Accumalate will return an iterator that will give us an accumalated sum or other accumalated results based on an aggregator function that was passed to this accumalate function as an argument.
+import operator
+
+list1 = [1, 3, 5]
+
+res = itertools.accumulate(list1)
+print("default:")
+for x in res:
+    print(x)
+res = itertools.accumulate(list1, operator.mul)
+print("multiply:")
+for x in res:
+    print(x)
+
+# Chain combines two or more iterables and returns an combined iterable.
+print()
+listLetters = ['A', 'B', 'C']
+listNumbers = [1, 2, 3]
+
+chained_iter = itertools.chain(listLetters, listNumbers)
+for x in chained_iter:
+    print(x)
+
+# Compress can be used to filter elements from one iterable based on another iterable.
+print()
+letters = ['A', 'B', 'C']
+selector = [True, 0, 1]
+for x in itertools.compress(letters, selector):
+    print(x)
+
+# Groupby identifies the keys for each item in an interable object and groups the item based on the keys. This function requires anotehr function (key_func) that identifies a key in each element of an iterable object.
+print()
+anotherList = [("A", 100), ("A", 200), ("B", 30), ("B", 10)]
+def get_key(group):
+    return group[0]
+
+for key, grp in itertools.groupby(anotherList, get_key):
+    print(key + "-->", list(grp))
+
+# Tee can be used to duplicate iterators from a single iterator.
+print()
+listA = ['A', 'B', 'C']
+iter1, iter2 = itertools.tee(listA)
+
+for x in iter1:
+    print(x)
+
+for x in iter2:
+    print(x)
