@@ -151,3 +151,10 @@ for x in iter1:
 
 for x in iter2:
     print(x)
+
+
+"""
+Using filters, mappers, and reducers for data transformations.
+    map, filter, and reduce are three functions that are used to simplify and write concise code. These three functions are applied to iterables in a single shot without using iterative satements.
+"""
+print_centered_with_asterisks("Using the map")
