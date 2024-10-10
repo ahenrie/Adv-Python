@@ -1,4 +1,5 @@
 import unittest
+import encrypt
 
 class testEncryption(unittest.TestCase):
     def setUp(self) -> None:
