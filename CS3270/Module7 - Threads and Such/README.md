@@ -95,7 +95,7 @@ Length of filtered chuncks:  22359
 Length of full data dataframe:  99516
 Length of filtered pandas fetched dataframe:  22359
 ```
-The first length is the data that is fetched and processed asynchronsouly and with the help of multithreading. The second is the CSV into a dataframe and the last is the filtered CSV dataframe.
+The first length is the data that is fetched and processed asynchronously with the help of multiprocessing. The second is the CSV loaded into a DataFrame, and the last is the filtered DataFrame.
 
 ## Conclusion
 
