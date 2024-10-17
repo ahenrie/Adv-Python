@@ -18,6 +18,43 @@ This application processes weather data from a CSV file, specifically filtering 
 
 3. **Output**: The processed data is aggregated into a final DataFrame, which can then be analyzed or exported as needed.
 
+## Testing
+
+### 1. DataProcessor Tests (`TestDataProcessor`)
+
+These tests focus on validating the core processing logic, including filtering weather data and handling temperature calculations.
+
+- **Setup (`setUp`)**:
+  Creates an instance of `DataProcessor` with sample data that simulates weather records. Both non-empty and empty datasets are tested.
+
+- **Test: Filtering Rain Data (`test_filter_rain_data`)**:
+  Ensures that only rows where `'RainTomorrow'` is `'1'` are returned from a given chunk of data. Uses `pd.testing.assert_frame_equal()` to verify that the filtered data matches the expected output.
+
+- **Test: Handling Empty Data (`test_filter_rain_data_empty`)**:
+  Verifies that if no rows meet the filter criteria, the method returns an empty DataFrame. This test uses `.empty` to confirm the result.
+
+- **[Optional] Test: Average Temperature Calculation**:
+  This test (commented out) checks if the average of `MinTemp` and `MaxTemp` is correctly calculated.
+
+---
+
+### 2. DataFetcher Tests (`TestDataFetcher`)
+
+These tests validate the **asynchronous fetching** logic and ensure that the application handles chunked reading efficiently from large CSV files.
+
+- **Setup (`setUp`)**:
+  Initializes a `DataFetcher` instance and points it to the correct CSV file.
+
+- **Test: Chunk Size Initialization (`test_chunk_size`)**:
+  Confirms that the chunk size is correctly set (default: 1000).
+
+- **Test: Reading CSV in Chunks Asynchronously (`test_reading_to_chunks`)**:
+  - Validates that the CSV file is correctly divided into chunks.
+  - Ensures that **at least one chunk** is processed.
+  - Confirms that **each chunk contains at most 1000 rows**.
+  - Checks that **each chunk** is a list of dictionaries, where every row is represented as a dictionary.
+
+
 ## Getting Started
 
 To run the application, ensure you have the necessary dependencies installed. You can do this by running:
