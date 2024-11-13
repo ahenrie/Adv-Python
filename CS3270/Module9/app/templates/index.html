@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Weather Data</title>
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='style.css') }}"
+        />
+    </head>
+    <body>
+        <h1>Weather Data</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>MinTemp</th>
+                    <th>MaxTemp</th>
+                    <th>Rainfall</th>
+                    <!-- Add other columns as needed -->
+                </tr>
+            </thead>
+            <tbody>
+                {% for record in records %}
+                <tr>
+                    <td>{{ record.location }}</td>
+                    <td>{{ record.min_temp }}</td>
+                    <td>{{ record.max_temp }}</td>
+                    <td>{{ record.rainfall }}</td>
+                    <!-- Add other fields as needed -->
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>

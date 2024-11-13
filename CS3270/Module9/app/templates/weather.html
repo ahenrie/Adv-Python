@@ -1,0 +1,68 @@
+<!-- templates/weather.html -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather Data</title>
+    </head>
+    <body>
+        <h1>Weather Data</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Row ID</th>
+                    <th>Location</th>
+                    <th>Min Temp</th>
+                    <th>Max Temp</th>
+                    <th>Rainfall</th>
+                    <th>Evaporation</th>
+                    <th>Sunshine</th>
+                    <th>Wind Gust Dir</th>
+                    <th>Wind Gust Speed</th>
+                    <th>Wind Dir 9am</th>
+                    <th>Wind Dir 3pm</th>
+                    <th>Wind Speed 9am</th>
+                    <th>Wind Speed 3pm</th>
+                    <th>Humidity 9am</th>
+                    <th>Humidity 3pm</th>
+                    <th>Pressure 9am</th>
+                    <th>Pressure 3pm</th>
+                    <th>Cloud 9am</th>
+                    <th>Cloud 3pm</th>
+                    <th>Temp 9am</th>
+                    <th>Temp 3pm</th>
+                    <th>Rain Today</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for record in records %}
+                <tr>
+                    <td>{{ record.row_id }}</td>
+                    <td>{{ record.location }}</td>
+                    <td>{{ record.min_temp }}</td>
+                    <td>{{ record.max_temp }}</td>
+                    <td>{{ record.rainfall }}</td>
+                    <td>{{ record.evaporation }}</td>
+                    <td>{{ record.sunshine }}</td>
+                    <td>{{ record.wind_gust_dir }}</td>
+                    <td>{{ record.wind_gust_speed }}</td>
+                    <td>{{ record.wind_dir_9am }}</td>
+                    <td>{{ record.wind_dir_3pm }}</td>
+                    <td>{{ record.wind_speed_9am }}</td>
+                    <td>{{ record.wind_speed_3pm }}</td>
+                    <td>{{ record.humidity_9am }}</td>
+                    <td>{{ record.humidity_3pm }}</td>
+                    <td>{{ record.pressure_9am }}</td>
+                    <td>{{ record.pressure_3pm }}</td>
+                    <td>{{ record.cloud_9am }}</td>
+                    <td>{{ record.cloud_3pm }}</td>
+                    <td>{{ record.temp_9am }}</td>
+                    <td>{{ record.temp_3pm }}</td>
+                    <td>{{ record.rain_today }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>
