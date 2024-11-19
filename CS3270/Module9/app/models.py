@@ -1,12 +1,20 @@
 from app import db
 
 class RequestLog(db.Model):
+    """
+    Represents a log entry for each request, capturing the query made and
+    the timestamp of the request.
+    """
     id = db.Column(db.Integer, primary_key=True)
     query = db.Column(db.String(100), nullable=False)
     timestamp = db.Column(db.DateTime, default=db.func.current_timestamp())
 
 
 class WeatherData(db.Model):
+    """
+    Represents weather data records, including various weather attributes such as
+    temperature, rainfall, wind, and humidity measurements, categorized by location.
+    """
     __tablename__ = 'weather_data'
     id = db.Column(db.Integer, primary_key=True)
     location = db.Column(db.String(50))

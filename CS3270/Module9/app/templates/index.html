@@ -1,36 +1,50 @@
+<!-- templates/index.html -->
 <!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Weather Data</title>
-        <link
-            rel="stylesheet"
-            href="{{ url_for('static', filename='style.css') }}"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather Search</title>
+        <style>
+            body {
+                background-color: #121212;
+                color: #e0e0e0;
+                font-family: Arial, sans-serif;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 50px;
+            }
+
+            select,
+            button {
+                padding: 10px;
+                margin-top: 20px;
+                font-size: 16px;
+            }
+
+            a {
+                color: #4caf50;
+                text-decoration: none;
+                margin-top: 20px;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
     </head>
     <body>
-        <h1>Weather Data</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>Location</th>
-                    <th>MinTemp</th>
-                    <th>MaxTemp</th>
-                    <th>Rainfall</th>
-                    <!-- Add other columns as needed -->
-                </tr>
-            </thead>
-            <tbody>
-                {% for record in records %}
-                <tr>
-                    <td>{{ record.location }}</td>
-                    <td>{{ record.min_temp }}</td>
-                    <td>{{ record.max_temp }}</td>
-                    <td>{{ record.rainfall }}</td>
-                    <!-- Add other fields as needed -->
-                </tr>
+        <h1>Search Weather by Location</h1>
+        <form method="POST" action="/">
+            <label for="location">Select Location:</label>
+            <select name="location" id="location">
+                {% for location in locations %}
+                <option value="{{ location }}">{{ location }}</option>
                 {% endfor %}
-            </tbody>
-        </table>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+        <a href="{{ url_for('weather_data') }}">View All Weather Data</a>
     </body>
 </html>
