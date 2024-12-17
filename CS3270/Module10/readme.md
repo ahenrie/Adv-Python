@@ -149,6 +149,29 @@ MinTemp    MaxTemp   Rainfall  Humidity9am  Humidity3pm  Pressure9am  Pressure3p
 
 ---
 
+## Organization
+
+.
+├── app
+│   ├── static
+│   ├── templates
+│   ├── __init__.py
+│   ├── extensions.py
+│   ├── import_csv.py
+│   ├── ml_model.py
+│   ├── models.py
+│   ├── rainfall_predictor_model.pkl
+│   ├── routes.py
+│   └── run.py
+├── data
+│   └── Weather Training Data.csv
+├── instance
+│   └── weather.db
+├── test.py
+└── requirements.txt
+
+---
+
 ## Installation
 
 1. Install dependencies:

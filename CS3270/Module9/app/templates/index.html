@@ -1,4 +1,3 @@
-<!-- templates/index.html -->
 <!doctype html>
 <html lang="en">
     <head>
@@ -17,10 +16,26 @@
             }
 
             select,
-            button {
+            button,
+            .link-button {
                 padding: 10px;
                 margin-top: 20px;
                 font-size: 16px;
+            }
+
+            .link-button {
+                color: white;
+                background-color: #4caf50;
+                border: none;
+                text-decoration: none;
+                border-radius: 5px;
+                cursor: pointer;
+                display: inline-block;
+                text-align: center;
+            }
+
+            .link-button:hover {
+                background-color: #45a049;
             }
 
             a {
@@ -46,5 +61,8 @@
             <button type="submit">Search</button>
         </form>
         <a href="{{ url_for('weather_data') }}">View All Weather Data</a>
+        <a href="{{ url_for('predict') }}" class="link-button"
+            >Predict Weather</a
+        >
     </body>
 </html>

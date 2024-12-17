@@ -2,55 +2,48 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Weather Data</title>
         <style>
-            /* Dark theme styling */
             body {
                 background-color: #121212;
                 color: #e0e0e0;
                 font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 50px;
             }
 
-            h1 {
-                color: #e0e0e0;
+            select,
+            button,
+            .link-button {
+                padding: 10px;
+                margin-top: 20px;
+                font-size: 16px;
+            }
+
+            .link-button {
+                color: white;
+                background-color: #4caf50;
+                border: none;
+                text-decoration: none;
+                border-radius: 5px;
+                cursor: pointer;
+                display: inline-block;
                 text-align: center;
             }
 
-            table {
-                width: 100%;
-                border-collapse: collapse;
-                background-color: #1e1e1e;
-                margin: 20px 0;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            .link-button:hover {
+                background-color: #45a049;
             }
 
-            th,
-            td {
-                padding: 12px;
-                text-align: left;
-                border: 1px solid #333;
+            a {
+                color: #4caf50;
+                text-decoration: none;
+                margin-top: 20px;
             }
 
-            th {
-                background-color: #333;
-                color: #b3b3b3;
-                font-weight: bold;
-            }
-
-            td {
-                color: #d1d1d1;
-            }
-
-            tr:nth-child(even) {
-                background-color: #2a2a2a;
-            }
-
-            tr:hover {
-                background-color: #444;
+            a:hover {
+                text-decoration: underline;
             }
         </style>
     </head>
