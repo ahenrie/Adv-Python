@@ -1,1 +1,0 @@
-# JWT implementation in Python
